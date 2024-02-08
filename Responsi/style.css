@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: black
+    background-color: rgba(255, 0, 0, 0.2);
+    background-size: cover;
+}
+.wrapper_profile{
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+.photo_name{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    margin: 0 25%;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.photo_name img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+}
+.photo_name h1{
+    padding: 25px 50px;
+    float: center;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+.detail_profile p{
+    margin-block-start: 2px;
+}
+.hobbies{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin-top: 5px;
+    float: left;
+}
+
+.hobbies h3{
+    text-align: center;
+    background-color: aquamarine;
+    padding:  20px;
+    margin: 0;
+}
+.flex_box{
+    display: flex;
+}
+.flex_box li{
+    flex: auto;
+    list-style: none;
+    padding: 110px;
+}
+.flex_box img{
+    width: 100%;
+    padding: 10%;
+    border-radius: 3%;
+    background-color: aquamarine;
+}
+.flex_box h4{
+    text-align: center;
+}
+
+.educations{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin-top: 5px;
+    float: left;
+    padding-bottom: 20px;
+}
+.educations h3{
+    text-align: center;
+    background-color: aquamarine;
+    padding:  20px;
+    margin: 0;
+
+}
+.container{
+    margin: 20px auto;
+    width: 40%;
+}
+.edu_left{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: solid none solid solid;
+    padding:10px;
+    text-align: left;
+}
+.edu_right{
+    float: left;
+    width: 100%;
+    border-color: darkgreen;
+    border-style: none solid none none;
+    padding:10px;
+    text-align: right;
+}
