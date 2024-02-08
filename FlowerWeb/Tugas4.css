@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+h1{
+	width: 100%;
+	color: black;
+	font-size: 300%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+
+div{
+	text-align: right;
+	width: 100%;
+	margin: 0px;
+	padding: 20px 0;
+}
+div ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+div ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serifs;
+}
+
+p{
+	width: 100%;
+	position: absolute;
+	top: 63%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
