@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: black
+    background-color: rgba(255, 0, 0, 0.2);
+    background-size: cover;
+}
+.p_profile{
+    background-color: rgba(255, 0, 0, 0.2);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+
+.p_name img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+}
+
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.detail_profile h3{
+    margin-block-end: 2px;
+}
+
+.detail_profile p{
+    margin-block-start: 2px;
+}
